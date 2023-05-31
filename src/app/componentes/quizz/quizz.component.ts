@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import quizz_questions from "../../../assets/data/quizz_questions.json"
 
+
 @Component({
   selector: 'app-quizz',
   templateUrl: './quizz.component.html',
@@ -38,7 +39,6 @@ export class QuizzComponent implements OnInit {
       console.log(this.questionIndex)
       console.log(this.questionMaxIndex)
     }
-
   }
 
   playerChoose(value:string){
@@ -76,3 +76,4 @@ export class QuizzComponent implements OnInit {
   }
 
 }
+
